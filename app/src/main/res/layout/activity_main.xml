@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2f3542"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#2f3542">
+
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="false"
+            android:background="#1e90ff"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <TextView
+            android:id="@+id/AppTopBarDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="19dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/top_description"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="162dp"
+            tools:layout_editor_absoluteY="82dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="80dp">
+
+        <TextView
+            android:id="@+id/answer_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="189dp"
+            android:fontFamily="@font/montserrat"
+            android:shadowColor="#000"
+            android:text="@string/a_default"
+            android:textColor="#ffffff"
+            android:textSize="36sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="100dp">
+
+        <Button
+            android:id="@+id/ask_button"
+            android:layout_width="241dp"
+            android:layout_height="58dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="#1e90ff"
+            android:text="@string/ask_btn"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+</LinearLayout>

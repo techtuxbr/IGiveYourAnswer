@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">I Give Your Answer</string>
+    <string name="top_description">Make everyday decisions easier!</string>
+    <string name="ask_btn">Ask!</string>
+    <string name="a_default">Ask me!</string>
+    <string name="a_yes">Yes</string>
+    <string name="a_no">No</string>
+    <string name="a_maybe">Maybe</string>
+    <string name="a_nah">Nah</string>
+    <string name="a_ihnid">I have no ideia</string>
+</resources>
